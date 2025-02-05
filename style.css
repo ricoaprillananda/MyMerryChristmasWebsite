@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: whitesmoke; 
+    color: black;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'ElegantFont', serif;
+    font-size: 3rem;
+    color: transparent;
+    background: linear-gradient(45deg, #ffffff, #0e062e, #121212); 
+    -webkit-background-clip: text;
+    animation: white-blue-black-text;
+}
+
+@keyframes white-green-black-text {
+    0% { color: #ffffff; } 
+    50% { color: #008000; }
+    100% { color: #121212; }
+    100% {color: #0b0330}
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #cccccc; 
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin: 0;
+    padding: 8px;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.menu a:hover {
+    color: green; 
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('assets/snowy_background.jpg') no-repeat center center/cover; 
+    text-align: center;
+}
+
+.hero-content {
+    z-index: 2;
+}
+
+.hero canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #121212; /* Black */
+    background: linear-gradient(45deg, #e3e3e3, #ffffff, #010440); /* White, Green, Black */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.hero button:hover {
+    transform: scale(1.1);
+}
+
+/* Magical Tree Image */
+.magical-tree {
+    position: absolute;
+    top: 48%;  /* Position it vertically in the center */
+    right: 29%; /* Move it to the right side */
+    transform: translate(50%, -50%); /* Center it vertically */
+    width: 300px; /* Increase the size of the magical tree */
+    height: auto;
+    z-index: 1;
+}
+
+/* Features Section */
+.features {
+    padding: 50px;
+    background: url('assets/snow.jpg') no-repeat;
+    text-align: left;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.feature-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.feature-item img:hover {
+    transform: rotate(20deg) scale(1.1);
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px; /* Reduced padding to bring images closer */
+    background: url('assets/snowman.jpg') no-repeat center center;
+    background-size: 117% auto; /* Full width, auto height */
+    height: 700px; /* Same height for each section */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.gallery h2 {
+    text-align: left; /* Ensure Gallery heading is centered */
+    margin-bottom: 1px; /* Space between heading and images */
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Vertically align items */
+    gap: 150px; /* Space between images */
+    height: 100%; /* Full section height */
+}
+
+.gallery img {
+    width: 308px; /* Increased width */
+    height: 550px; /* Increased height */
+    object-fit: cover; /* Crop and fill without distortion */
+    border-radius: 40px; /* Optional rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Contact Section */
+.contact {
+    padding: 100px; /* Reduced padding on top to bring it up */
+    text-align: center;
+    background: url(assets/decoration.jpg) no-repeat center center/cover;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px;
+    background-color: rgb(6, 70, 86);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff; /* Black */
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #0b0330; /* White */
+}
+
+/* Footer */
+footer {
+    padding: 1px;
+    background: rgb(245, 245, 245);
+    text-align: center;
+    color: #ffffff; /* White */
+}
+
+footer a {
+    color: transparent;
+    background-color: whitesmoke; 
+    text-decoration: none;
+    margin: 0 5px;
+    animation: white-green-black-text 5s ease-in-out infinite;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+santa-flying {
+    background: url(assets/santa.png);
+}

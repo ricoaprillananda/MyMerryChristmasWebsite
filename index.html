@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wonderful Christmas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/magical_tree.png" type="image/x-icon"> <!-- Added Favicon -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Surprise</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Santa's Gift</a></li>
+        </ul>
+    </header>
+
+    <!-- Hero Section with Snowfall and Flying Santa -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Merry Christmas from Me</h1>
+            <h2>Twinkle, Tinsel, and Christmas Magic!</h2>
+            <button onclick="window.location.href='#features'">Unwrap Your Magical Gift!</button>
+        </div>
+        <!-- Snowfall Animation Canvas -->
+        <canvas id="snowfall"></canvas>
+        <!-- Magical Tree -->
+        <img src="assets/magical_tree.png" alt="Magical Christmas Tree" class="magical-tree" />
+    </section>
+
+    <!-- Div Section -->
+    <section class="features">
+        <div class="divider"></div> 
+        <h2>Magical Event</h2>
+        <div class="features-list">
+            <div class="feature-item">
+                <img src="assets/1.png" alt="deer" />
+                <h3>Meet & Greet with Santa's Deer</h3>
+                <p>Start a friendship with the magical deer.</p>
+            </div>
+            <div class="feature-item">
+                <img src="assets/2.png" alt="Santa" />
+                <h3>Santa with His Guitar</h3>
+                <p>Singing Together with Santa.</p>
+            </div>
+            <div class="feature-item">
+                <img src="assets/3.png" alt="Gift" />
+                <h3>Santa's Gift</h3>
+                <p>Check out your Christmas gifts live from Santa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery">
+        <h2>Gallery Card</h2>
+        <div class="gallery-container">
+            <img src="assets/a.png" alt="Gallery Image 1">
+            <img src="assets/b.jpg" alt="Gallery Image 2">
+            <img src="assets/c.jpg" alt="Gallery Image 3">
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Gift from Santa</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message to Santa</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Merry Christmas. All rights reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </p>
+    </footer>
+
+    <!-- Background Music -->
+    <audio id="bg-music" loop muted>
+        <source src="assets/music/music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
