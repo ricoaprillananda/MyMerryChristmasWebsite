@@ -1,6 +1,6 @@
 ## 🎄🦌 MyMerryChristmasWebsite
 
-Welcome to **MyMerryChristmasWebsite**  a beautifully designed Christmas-themed website that brings the holiday spirit to life! 
+Welcome to **MyMerryChristmasWebsite** a beautifully designed Christmas-themed website that brings the holiday spirit to life! 
 
 ----
 
@@ -24,4 +24,4 @@ This project is open-source and available under the **MIT License**.
 Follow us for more updates and Christmas fun! 
 
 - Email: ricoaprillananda@gmail.com
-- Instagram: ricoaprillananda
+- Instagram:[ ricoaprillananda](https://www.instagram.com/ricoaprillananda/)
