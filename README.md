@@ -20,6 +20,8 @@ This project is open-source and available under the **MIT License**.
 ---
 
 ## Connect With Us!
+
 Follow us for more updates and Christmas fun! 
- Email: ricoaprillananda@gmail.com
- Instagram: ricoaprillananda
+
+- Email: ricoaprillananda@gmail.com
+- Instagram: ricoaprillananda
